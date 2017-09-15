@@ -36,7 +36,7 @@ Nodejs + express + handlebars + bootstrap
 
 ****
    
-# 3. app.js 및 Router 설정
+# 3. app.js 및 Router 설정 + bootstrap 적용
  
  ## 3.1. app.js 
  
@@ -46,6 +46,21 @@ Nodejs + express + handlebars + bootstrap
      1. index.js + main.handlebars + home.handlebars
  ![shell 접속](http://13.115.40.134/img/router.png)
  
+
+ ## 3.3. bootstrap 적용
+     
+ ### 3.3.1. bootstrap 설치
+ ```
+	1. npm install bootstrap 
+	2. app.js 설정 추가
+          -app.use('/static',express.static('public'));
+          -app.use('/jquery',express.static(__dirname + '/node_modules/jquery/dist/'));
+          -app.use('/bootstrap',express.static(__dirname + '/node_modules/bootstrap/dist/'));
+	3.main.handlebars  추가
+           -<script src="/jquery/jquery.min.js"></script>
+           -<script src="/jquery/jquery.js" charset="utf-8"></script>
+           -<script src="/bootstrap/js/bootstrap.js" charset="utf-8"></script>
+ ```
 
 **** 
  # 4. 실행 화면
