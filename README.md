@@ -46,4 +46,12 @@ Nodejs + express + handlebars + bootstrap
  ![shell 접속](http://13.115.40.134/img/router.png)
  
  
+ # 4. 실행 화면
+ 
+  ## 4.1. npm start
+       1. npm install nodemon -g  
+       2. package.json   수정
+        "start": "node ./bin/www" ==> "start": "nodemon ./bin/www"
+       3. http://13.115.40.134:3000/ 
+ 
  
