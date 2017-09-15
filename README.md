@@ -34,3 +34,16 @@ Nodejs + express + handlebars + bootstrap
 
 ![shell 접속](http://13.115.40.134/img/hb.png)
    
+   
+# 3. app.js 및 Router 설정
+ 
+ ## 3.1. app.js 
+ 
+ ![shell 접속](http://13.115.40.134/img/app.png)
+ 
+  ## 3.2. Router 
+     1. index.js + main.handlebars + home.handlebars
+ ![shell 접속](http://13.115.40.134/img/router.png)
+ 
+ 
+ 
