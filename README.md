@@ -33,7 +33,8 @@ Nodejs + express + handlebars + bootstrap
  ## 2.2. Handlebars 설치 
 
 ![shell 접속](http://13.115.40.134/img/hb.png)
-   
+
+****
    
 # 3. app.js 및 Router 설정
  
@@ -41,18 +42,17 @@ Nodejs + express + handlebars + bootstrap
  
  ![shell 접속](http://13.115.40.134/img/app.png)
  
-  ## 3.2. Router 
+ ## 3.2. Router 
      1. index.js + main.handlebars + home.handlebars
  ![shell 접속](http://13.115.40.134/img/router.png)
  
- 
+
+**** 
  # 4. 실행 화면
- 
-  ## 4.1. 서버 실행
+   ## 4.1. 서버 실행
        1. npm start  (에러발생시 : npm update)
-       2. npm install nodemon -g 
-       3. package.json   수정
-        "start": "node ./bin/www" ==> "start": "nodemon ./bin/www"	
+       2. npm install nodemon -g
+       3. package.json   수정("start": "node ./bin/www" ==> "start": "nodemon ./bin/www")
        4. http://13.115.40.134:3000/ 
  
  
