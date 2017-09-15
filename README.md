@@ -12,8 +12,10 @@ Nodejs + express + handlebars + bootstrap
 
 ## 1.2. 서버 접속 Client
 ### 1.2.1. Xshell5 사용 
-	1. pageant 를 사용하여 pem 파일을 ppk 파일로 변환
+	1. pageant 를 사용하여 pem 파일을 ppk 파일로 변환(EditPlus 사용을 위해)
 	2. Xshell5으로 public key 로그인 
+![shell 접속](http://http://13.115.40.134/img/shell.png)
+
 
 Connecting to 13.115.40.134:22...
 Connection established.
@@ -33,6 +35,19 @@ Last login: Fri Sep 15 13:47:21 2017 from 211.172.211.10
 bitnami@ip-172-26-7-237:~$ 
 
 
+### 1.2.2. 단점
+	1. 표준이 없다.
+	2. 표준이 없기 때문에 도구에 따라서 변환방식이나 생성물이 다르다.
+	3. 모든 HTML 마크업을 대신하지 못한다.
+
+****
+# 2. 마크다운 사용법(문법)
+## 2.1. 헤더Headers
+* 큰제목: 문서 제목
+    ```
+    This is an H1
+    =============
+    ```
     This is an H1
     =============
 
@@ -240,3 +255,4 @@ View 영역의 항목을 그대로 붙여넣거나 HTML 내보내기 등으로 �
 * [John gruber 마크다운 번역](http://nolboo.github.io/blog/2013/09/07/john-gruber-markdown/)
 * [깃허브 취향의 마크다운 번역](http://nolboo.github.io/blog/2014/03/25/github-flavored-markdown/)
 * [허니몬의 마크다운 작성법](http://www.slideshare.net/ihoneymon/ss-40575068)
+
