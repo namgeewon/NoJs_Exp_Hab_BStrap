@@ -71,5 +71,6 @@ Nodejs + express + handlebars + bootstrap
 	2. npm install nodemon -g (nodemon 설치)
 	3. package.json   수정("start": "node ./bin/www" ==> "start": "nodemon ./bin/www")
 	4. 접속 테스트(http://13.115.40.134:3000) 
- - Lightsail(https://lightsail.aws.amazon.com) AWS 매니저에서 링크로 이동
+ - 접속 링크(http://13.115.40.134:3000) 
+ 
   ![shell 접속](http://13.115.40.134/img/run.png)
