@@ -11,9 +11,11 @@ Nodejs + express + handlebars + bootstrap
 
 ## 1.2. 서버 접속 Client
 ### 1.2.1. Xshell5 사용 
-	1. pageant 를 사용하여 pem 파일을 ppk 파일로 변환(EditPlus 사용을 위해)
-	2. Xshell5으로 public key 로그인 
+	1. Xshell5으로 public key 로그인 
 ![shell 접속](http://13.115.40.134/img/shell.PNG)
+	
+	2. EditPlus 사용을 위해 Pageant 를 사용하여 pem 파일을 ppk 파일로 변환(ftp  고급 설정 sftp , pageant 체크)
+![shell 접속](http://13.115.40.134/img/editplus.png)
 
 ****
 # 2. Express + Handlebars 
