@@ -14,25 +14,9 @@ Nodejs + express + handlebars + bootstrap
 ### 1.2.1. Xshell5 사용 
 	1. pageant 를 사용하여 pem 파일을 ppk 파일로 변환(EditPlus 사용을 위해)
 	2. Xshell5으로 public key 로그인 
-![shell 접속](http://http://13.115.40.134/img/shell.png)
+![shell 접속](http://13.115.40.134/img/shell.PNG)
 
 
-Connecting to 13.115.40.134:22...
-Connection established.
-To escape to local shell, press 'Ctrl+Alt+]'.
-
-Welcome to Ubuntu 14.04.5 LTS (GNU/Linux 3.13.0-117-generic x86_64)
-       ___ _ _                   _
-      | _ |_) |_ _ _  __ _ _ __ (_)
-      | _ \ |  _| ' \/ _` | '  \| |
-      |___/_|\__|_|_|\__,_|_|_|_|_|
-
-  *** Welcome to the Bitnami Node.js 7.10.0-0 ***
-  *** Documentation:  https://docs.bitnami.com/aws/infrastructure/nodejs/ ***
-  ***                 https://docs.bitnami.com/aws/ ***
-  *** Bitnami Forums: https://community.bitnami.com/ ***
-Last login: Fri Sep 15 13:47:21 2017 from 211.172.211.10
-bitnami@ip-172-26-7-237:~$ 
 
 
 ### 1.2.2. 단점
