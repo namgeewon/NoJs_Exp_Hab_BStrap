@@ -70,6 +70,6 @@ Nodejs + express + handlebars + bootstrap
 	1. npm start  (에러발생시 : npm update)
 	2. npm install nodemon -g (nodemon 설치)
 	3. package.json   수정("start": "node ./bin/www" ==> "start": "nodemon ./bin/www")
-	4. (http://13.115.40.134:3000)
+	4. 접속 테스트(http://13.115.40.134:3000) 
  
   ![shell 접속](http://13.115.40.134/img/run.png)
