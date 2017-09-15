@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>테스트프로젝트({{{title}}})</title>
+    <link rel='stylesheet' href='/bootstrap/css/bootstrap.css' media='screen' charset='utf-8' />
+  	<script src="/jquery/jquery.min.js"></script>
+        <script src="/jquery/jquery.js" charset="utf-8"></script>
+        <script src="/bootstrap/js/bootstrap.js" charset="utf-8"></script>
+	<script language="javascript">
+
+		function srvTime(url){
+			var xmlHttp;
+		         var serverTime;
+			if(url == undefined) { url = window.location.href.toString(); }
+			if(window.XMLHttpRequest){
+				xmlHttp = new XMLHttpRequest();
+			}else if(window.ActiveXObject){
+				xmlHttp = new ActiveXObject('Msxml2.XMLHTTP');
+			}else{
+				return null; 
+			}
+			xmlHttp.open('HEAD',url,false);  //헤더 정보만 받기 위해 HEAD방식으로 요청.
+			xmlHttp.setRequestHeader("Content-Type", "text/html");
+			xmlHttp.send('');
+                        serverTime=xmlHttp.getResponseHeader("Date");  //받은 헤더정보에서 Date 속성을 리턴.
+			document.getElementById("timeClick").value=serverTime;
+		}
+		window.setInterval("srvTime();",1000);
+	</script>
+  
+  </head>
+  <body>
+    <div class="col-md-12">
+     서버 시간 : <input type="email" name="timeClick" id="timeClick" size="30" maxLength="50">
+   </div>
+   <h1></h1>
+    <div class='container'>
+    {{{body}}}
+    </div>
+    <div class='container'>
+    랜덤 메세지 : {{{msg}}}
+    </div>
+
+  </body>
+</html>
