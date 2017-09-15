@@ -57,4 +57,4 @@ Nodejs + express + handlebars + bootstrap
 	3. package.json   수정("start": "node ./bin/www" ==> "start": "nodemon ./bin/www")
 	4. http://13.115.40.134:3000/ 
  
- 
+  ![shell 접속](http://13.115.40.134/img/run.png)
