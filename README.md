@@ -23,10 +23,12 @@ Nodejs + express + handlebars + bootstrap
 	1. $ npm install express
 	2. $ express ExpressDevTest(기본적으로 jade 로 설치됨)
 	3. public, routes, views 폴더가 생성되고 package.json, app.js가 생성됨을 확인할 수 있다.
-        4. Package.json에 보면 Dependencies에 express와 jade, body-parser, cookie-parser, debug, morgan, 
+	4. Package.json에 보면 Dependencies에 express와 jade, body-parser, cookie-parser, debug, morgan, 
 	   Serve-favicon이 등록되어 있는데 express를 제외한 나머지 모듈은 npm install으로 추가 module 설치 
 	   반드시 프로젝트 디렉토리 내에서 설치 실행
            $ npm install
 
+ ## 2.2. Handlebars 설치 
 
+![shell 접속](http://13.115.40.134/img/hb.png)
    
