@@ -9,63 +9,24 @@ Nodejs + express + handlebars + bootstrap
 - Account SSH Keys Pairs 설정--> 로컬에 key 다운로드(LightsailDefaultPrivateKey-ap-northeast-1.pem) 
 - Networking Firewall 설정 -->  TCP : 3000 추가
 
-
 ## 1.2. 서버 접속 Client
 ### 1.2.1. Xshell5 사용 
 	1. pageant 를 사용하여 pem 파일을 ppk 파일로 변환(EditPlus 사용을 위해)
 	2. Xshell5으로 public key 로그인 
 ![shell 접속](http://13.115.40.134/img/shell.PNG)
 
-
-
-
-### 1.2.2. 단점
-	1. 표준이 없다.
-	2. 표준이 없기 때문에 도구에 따라서 변환방식이나 생성물이 다르다.
-	3. 모든 HTML 마크업을 대신하지 못한다.
-
 ****
-# 2. 마크다운 사용법(문법)
-## 2.1. 헤더Headers
-* 큰제목: 문서 제목
-    ```
-    This is an H1
-    =============
-    ```
-    This is an H1
-    =============
+# 2. Express + Handlebars 
 
-* 작은제목: 문서 부제목
-    ```
-    This is an H2
-    -------------
-    ```
-    This is an H2
-    -------------
+## 2.1. Express 설치 
+	1. $ npm install express
+        2. $ express ExpressDevTest(기본적으로 jade 로 설치됨)
+	3. public, routes, views 폴더가 생성되고 package.json, app.js가 생성됨을 확인할 수 있다.
+        4. Package.json에 보면 Dependencies에 express와 jade, body-parser, cookie-parser, debug, morgan, 
+	   Serve-favicon이 등록되어 있는데 express를 제외한 나머지 모듈은 npm install으로 추가 module 설치 
+	   반드시 프로젝트 디렉토리 내에서 설치 실행
+           $ npm install
 
-* 글머리: 1~6까지만 지원
-```
-# This is a H1
-## This is a H2
-### This is a H3
-#### This is a H4
-##### This is a H5
-###### This is a H6
-```
-# This is a H1
-## This is a H2
-### This is a H3
-#### This is a H4
-##### This is a H5
-###### This is a H6
-####### This is a 7.
-
-## 2.2. BlockQuote
-이메일에서 사용하는 ```>``` 블럭인용문자를 이용한다.
-```
-> This is a blockqute.
-```
-> This is a first blockqute.
 >	> This is a second blockqute.
 >	>	> This is a third blockqute.
 
