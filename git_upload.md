@@ -41,3 +41,6 @@ $ sudo git commit -m "메세지입력"
 
 $ git push origin master
 
+$ git pull (github --> local =svn update)
+
+
