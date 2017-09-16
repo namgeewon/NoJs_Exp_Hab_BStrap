@@ -73,8 +73,7 @@ Nodejs + express + handlebars + bootstrap
 	4. 접속 테스트(http://13.115.40.134:3000) 
 	5. npm install forever -g (background run)
 	6. forever start -c nodemon bin/www   (home/bitnami/nagee/ExpressDevTest> 수행)
-        7. forever stop bin/www
-	
+	7. forever stop bin/www
  - 접속 링크(http://13.115.40.134:3000) 
  
   ![shell 접속](http://13.115.40.134/img/run.png)
