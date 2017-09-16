@@ -76,13 +76,19 @@ Nodejs + express + handlebars + bootstrap
   ![shell 접속](http://13.115.40.134/img/run.png)
   
   **** 
- # 5. 실행 화면
+ # 5. Test 구현
  
- ## 5.1. 서버 실행 
+ ## 5.1. URL TEST LINK and Soruce File
  
-	1. npm start  (에러발생시 : npm update)
-	2. npm install nodemon -g (nodemon 설치)
-	3. package.json   수정("start": "node ./bin/www" ==> "start": "nodemon ./bin/www")
-	4. 접속 테스트(http://13.115.40.134:3000) 
- - 접속 링크(http://13.115.40.134:3000) 
- 
+ - main.handlebars (http://13.115.40.134:3000) 
+   - 서버 시간     
+   
+ - home.handlebars (http://13.115.40.134:3000) 
+   - 구글 검색 
+   
+ - joinForm.handlebars , joinForm.js (http://13.115.40.134:3000/join) 
+   - 8자 이상으로 대문자, 소문자, 숫자,특수문자(!@#$%^&+=)가 최소 1개씩 포함 비밀번호 입력 폼 
+   
+ - ajax.handlebars , ajax.js (http://13.115.40.134:3000/ajax) 
+   - 피보나치  수열 값 
+   
