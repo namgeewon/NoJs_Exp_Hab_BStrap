@@ -9,7 +9,7 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var users = require('./routes/users');
 var join = require('./routes/joinForm');
-
+var ajax = require('./routes/ajax');
 
 var app = express();
 var hbs = exphbs.create({
@@ -39,6 +39,7 @@ app.use('/static',express.static('public'));
 app.use('/jquery',express.static(__dirname + '/node_modules/jquery/dist/'));
 app.use('/bootstrap',express.static(__dirname + '/node_modules/bootstrap/dist/'));
 app.use('/join', join);
+app.use('/ajax', ajax);
 
 
 
