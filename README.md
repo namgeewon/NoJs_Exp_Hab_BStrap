@@ -92,3 +92,4 @@ Nodejs + express + handlebars + bootstrap
  - ajax.handlebars , ajax.js (http://13.115.40.134:3000/ajax) 
    - 피보나치  수열 값 
    
+ ![shell 접속](http://13.115.40.134/img/resultView.png)
