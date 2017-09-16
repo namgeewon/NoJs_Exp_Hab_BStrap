@@ -9,6 +9,8 @@ Nodejs + express + handlebars + bootstrap
 - Account SSH Keys Pairs 설정--> 로컬에 key 다운로드(LightsailDefaultPrivateKey-ap-northeast-1.pem) 
 - Networking Firewall 설정 -->  TCP : 3000 추가
 
+![shell 접속](http://13.115.40.134/img/lightsail.png)
+
 ## 1.2. 서버 접속 Client
 ### 1.2.1. Xshell5 사용 
 	1. Xshell5으로 public key 로그인 
